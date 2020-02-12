@@ -1,13 +1,13 @@
 <?php
 
-$con = mysqli_connect('127.0.0.1','root','');
+$con = mysqli_connect('tj5iv8piornf713y.cbetxkdyhwsb.us-east-1.rds.amazonaws.com','aqmljqsu6fto79sb','edpzs8pvzxz9nh2e');
 
 if(!$con)
 {
     echo'Not Connected To Server';
 }
 
-if(!mysqli_select_db($con,'PenawarBarakah'))
+if(!mysqli_select_db($con,'c4luno1bkgzed0ou'))
 {
     echo'Database Not Selected';
 }
